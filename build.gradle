@@ -61,7 +61,7 @@ modrinth {
 	token = System.getenv("MODRINTH_TOKEN") // modrinth token
 	projectId = "miniminified-f3" // slug or id
 	versionNumber = project.version // will fail if it already exists
-	versionType = "" // "alpha" "beta" or "release"
+	versionType = "release" // "alpha" "beta" or "release"
 	uploadFile = remapJar // loom = "remapJar" (else "jar")
 	gameVersions = ["1.20","1.20.1"] // array
 	loaders = ["fabric"]
