@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mmf",
+  "version": "${version}",
+
+  "name": "Mini-Minified F3",
+  "description": "Better F3, less cluttered",
+  "authors": [
+    "LumaaDev"
+  ],
+  "contributors": [
+    "horizonezio"
+  ],
+  "contact": {
+    "homepage": "https://lumaa.fr/",
+    "sources": "https://github.com/lumaa-dev/LumaaTemplate",
+    "issues": "https://github.com/lumaa-dev/LumaaTemplate/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mmf/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.lumaa.mmf.MMFMod"
+    ]
+  },
+  "mixins": [
+    "mmf.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
